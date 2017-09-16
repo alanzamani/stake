@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>paymentPage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div class="container">
+    <!------------------------------ POLI ------------------------------>
+    <div class="box" id="poli-box">                                   <!-- TOP -->
+        <img src="img/green3.png" class="bullet" id="bullet1">
+        <img src="img/poli.png">
+        <span class="capital internet-banking">(internet banking)</span>
+        <img src="img/days.png" class="day">
+        <p>Deposit with your bank account using Internet Banking. You will be redirected to your bank website to complete the payment.</p>
+        <p>
+            <span class="glyphicon glyphicon-lock"></span>
+            <span class="thick">POLi funding is secure and powered by Australia Post.</span>
+            <img src="img/poli2.png" class="poli">
+        </p>
+
+        <div>                                           <!-- MIDDLE -->
+            <p class="uppercase spread dark-gray">select amount to send</p>
+            <div class="amount gray-font">
+                <div class="mini-box mini-box-left" id="two">$2,000</div>
+                <div class="mini-box" id="five">$5,000</div>
+                <div class="mini-box" id="ten">$10,000</div>
+                <div class="mini-box" id="twenty">$20,000</div>
+                <div class="mini-box mini-box-right" id="fifty">$50,000</div>
+            </div>
+
+            <div class="aus-left">
+                <span class="uppercase spread dark-gray">amount to send</span>
+                <div class="aus">
+                    <div class="capital thick other">other: $</div>
+                    <span class="gray-font thick aus-digit" id="aus-dollar"></span>
+                    <img src="img/aud-flag.d20e8f81.png" class="aus-flag">
+                </div>
+                <span class="gray-font comments">Minimum POLi Transfer $1,000</span>
+            </div>
+
+            <div class="us-right">
+                <span class="uppercase spread dark-gray">deposit amount</span>
+                <div class="us">
+                    <div class="uppercase thick USD">usd $</div>
+                    <span class="thick us-digit" id="us-dollar"></span>
+                    <img src="img/us.png" class="us-flag">
+                </div>
+                <span class="gray-font comments">FX rate: AUD 1.00 = USD 0.77050</span>
+            </div>
+
+        </div>
+
+        <div class="bottom-left gray-font">                   <!-- BOTTOM -->
+            <span class="uppercase thick">view breakdown</span>
+            <span class="glyphicon glyphicon-chevron-down"></span>
+        </div>
+        <div class="bottom-right">
+            <span class="uppercase thick">proceed</span>
+        </div>
+
+    </div>
+
+    <!------------------------------ BANK TRANSFER ------------------------------>
+    <div class="box bottom-box" id="bank-box">
+        <img src="img/gray.png" class="bullet" id="bullet2">
+        <span class="uppercase thick">bank transfer</span>
+        <span class="red">(<b>4-6</b> Business days)</span>
+    </div>
+
+    <!------------------------------ BPAY ------------------------------>
+    <div class="box bottom-box" id="bpay-box">
+        <img src="img/gray.png" class="bullet" id="bullet3">
+        <img src="img/bpay.png">
+        <span class="red">(<b>5-7</b> Business days)</span>
+    </div>
+</div>
+
+    <!------------------------------ SCRIPT ------------------------------>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

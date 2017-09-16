@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,600');
+
+
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 100;
+  letter-spacing: 0.1px;
+}
+
+.container {
+  margin-top: 10px;
+  max-width: 700px;
+}
+
+.box {
+  border: solid #e5e5e5 2px;
+  background-color: #f9f9f9;
+  float: left;
+  width: 100%;
+}
+
+.box:hover {
+  -webkit-transform: scale(1.01);
+  -moz-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  -o-transform: scale(1.01);
+  transform: scale(1.01);
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+.thick {
+  font-weight: bold;
+}
+
+p {
+  padding: 20px 50px 0 50px;
+}
+
+/*----------------------- TOP -----------------------*/
+.bullet {
+  margin: 15px 20px 15px 15px;
+}
+
+.day {
+  float: right;
+  margin: 15px 20px;
+}
+
+.internet-banking {
+  padding-left: 20px;
+}
+
+.poli {
+  float: right;
+  margin-right: 10px;
+}
+/*----------------------- MIDDLE -----------------------*/
+.spread {
+  letter-spacing: 1px;
+}
+
+.amount {
+  margin: auto 20px;
+}
+
+.mini-box {
+  background-color: white;
+  border: solid 1px #d8dada;
+  width: 18%;
+  float: left;
+  margin-right: 2%;
+  padding: 15px 0;
+  text-align: center;
+  cursor:pointer;
+}
+
+.gray-font {
+  color: #b7b9bb;
+}
+
+.dark-gray {
+  color: #757678;
+}
+
+.mini-box-right {
+  margin-right: 0;
+}
+
+.mini-box-left {
+  margin-left: 1%;
+}
+
+.aus-left, .us-right {
+  float: left;
+  width: 40%;
+  margin: 50px 5% auto;
+}
+
+.aus, .us {
+  background-color: white;
+  padding: 10px 20px 35px 20px;
+  border: solid 1px #d8dada;
+}
+
+.other, .USD, .aus-digit, .us-digit {
+  float: left;
+}
+
+.aus-flag, .us-flag {
+  float: right;
+}
+
+.comments {
+  margin: 20px;
+}
+
+.bottom-left, .bottom-right {
+  float: left;
+  margin: 5%;
+  padding: 12px 60px;
+}
+
+.glyphicon {
+  padding-left: 30px;
+}
+
+.bottom-right {
+  background-color: #e6e7e8;
+}
+
+.bottom-right span {
+  color: white;
+}
+
+/*----------------------- BOTTOM -----------------------*/
+.red {
+  color: #da101e;
+  float: right;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.bottom-box {
+  background-color: white;
+  border-top: 0;
+}
+
+
+/*----------------------- MOBILE RESPONSIVE -----------------------*/
+@media (max-width: 375px) {
+
+  .day {
+    float: none;
+    padding: auto;
+  }
+
+  .poli {
+    float: none;
+    margin: auto;
+  }
+
+  .mini-box {
+    float: none;
+    width: 50%;
+    margin: auto;
+  }
+
+  .aus-left, .us-right {
+    float: none;
+    width: 70%;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  .bottom-left, .bottom-right {
+    float: none;
+    margin: 20px auto;
+    padding: auto;
+    width: 90%;
+  }
+
+  .bottom-right span {                            /**/
+    padding: auto;
+  }
+
+}
+
